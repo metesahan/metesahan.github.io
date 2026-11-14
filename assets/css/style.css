@@ -397,10 +397,12 @@ body.no-webgl { background:
   color: var(--steel);
 }
 .cert-logo svg { width: 40px; height: 40px; }
+.cert-logo img { width: 40px; height: 40px; object-fit: contain; }
 .cert-logo--btk span { font: 600 13px/1 "JetBrains Mono", monospace; letter-spacing: .08em; color: var(--bone); }
 @media (min-width: 768px) {
   .cert-logo { width: 72px; height: 72px; border-radius: 16px; }
   .cert-logo svg { width: 52px; height: 52px; }
+  .cert-logo img { width: 52px; height: 52px; }
   .cert-logo--btk span { font-size: 16px; }
 }
 .cert-main { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
